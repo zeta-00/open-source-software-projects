@@ -1,6 +1,6 @@
 function bubble_sort(array)
 {
-    
+    // bubble-sort algorithm:
     for (let i = 0; i < array.length; i++)
     {
         for (let k = 0; k < array.length - i - 1; k++)
