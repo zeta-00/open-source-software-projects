@@ -1,0 +1,35 @@
+[20:56:02.121] Global cache location '/Users/apple/Library/Caches/typescript/4.3', safe file path '/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/typingsafelist.json', types map path /nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/typesmap.json
+[20:56:02.122] Processing cache location '/Users/apple/Library/Caches/typescript/4.3'
+[20:56:02.122] Trying to find '/Users/apple/Library/Caches/typescript/4.3/package.json'...
+[20:56:02.122] Loaded content of '/Users/apple/Library/Caches/typescript/4.3/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.560"}}
+[20:56:02.122] Loaded content of '/Users/apple/Library/Caches/typescript/4.3/package-lock.json'
+[20:56:02.122] Finished processing cache location '/Users/apple/Library/Caches/typescript/4.3'
+[20:56:02.123] Process id: 2947
+[20:56:02.123] NPM location: /nix/store/vq6jlwbz6824v5nlx14zxzwax84zvmd0-nodejs-14.17.5/bin/npm (explicit '--npmLocation' not  provided)
+[20:56:02.123] validateDefaultNpmLocation: false
+[20:56:02.123] Npm config file: /Users/apple/Library/Caches/typescript/4.3/package.json
+[20:56:02.123] Updating types-registry npm package...
+[20:56:02.123] Exec: /nix/store/vq6jlwbz6824v5nlx14zxzwax84zvmd0-nodejs-14.17.5/bin/npm install --ignore-scripts types-registry@latest
+[20:56:03.257]     Succeeded. stdout:
+    + types-registry@0.1.561
+    updated 1 package and audited 1 package in 0.763s
+found 0 vulnerabilities
+
+
+[20:56:03.257] Updated types-registry npm package
+[20:56:03.287] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es5.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2016.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.dom.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bubble-sort.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting","kind":"discover"}
+[20:56:03.305] Loaded safelist from types map file '/nix/store/sgiq7ixk43w9r1v2a62xfh4jh8ykqi0z-typescript-4.3.5/lib/node_modules/typescript/lib/typesmap.json'
+[20:56:03.306] Explicitly included types: []
+[20:56:03.307] Inferred typings from unresolved imports: []
+[20:56:03.307] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bower_components","/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/node_modules"]}
+[20:56:03.307] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bower_components","/Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/node_modules"]}
+[20:56:03.307] DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bower_components
+[20:56:03.307] DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:56:03.308] Elapsed:: 0.7224160023033619ms DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:56:03.308] DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/node_modules
+[20:56:03.308] DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:56:03.308] Elapsed:: 0.06924999877810478ms DirectoryWatcher:: Added:: WatchInfo: /Users/apple/open-source-software-projects/dev/javascript/computer-science/algorithms/sorting/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[20:56:03.308] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[20:56:03.309] Response has been sent.
+[20:56:03.309] No new typings were requested as a result of typings discovery
